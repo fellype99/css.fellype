@@ -1,10 +1,21 @@
 
-html {
-    background: #D99C79 ;
-    color: #027353 ;
-    font-size: 18px;
-    font-family: helvetica, sans-serif;
+.page-wrapper {
+    position: relative;
 }
+
+.explanation {
+    width: 60%;
+    border-right: #027353 solid 1px;
+    padding-right: 2%;
+
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+}
+
 .main footer {
     margin: 4%;
 }
@@ -49,7 +60,7 @@ color: #D99C79;
 }
 
 html {
-    background: #D99C79 ;
+   /* background: #D99C79 ; */
     color: #027353 ;
     font-size: 18px;
     font-family: helvetica, sans-serif;
