@@ -12,8 +12,10 @@
 
 #design-selection {
     position: absolute;
-    top: 560px;
+    top: 520px;
     left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .main footer {
@@ -89,3 +91,38 @@ font-size: 1.2rem ;
 abbr {
     font-variant: small-caps;
 }
+
+.supporting footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.benefits {
+    display: flex;
+    border-top: #027353 solid 1px;
+    border-bottom: #027353 solid 1px;
+}
+
+.benefits p {
+    flex-basis: 70%;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #027353 solid 1px;
+}
+
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+.participation {
+    align-self: center;
+}
+
